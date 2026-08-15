@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 int main() {
-    int x;
+    float x;
     cout<<"Enter : ";
     cin>>x;
-    int y;
+    float y;
     cout<<"Enter : ";
     cin>>y;
-    int z;
+    float z;
     cout<<"Enter : ";
     cin>>z;
     cout<<"Sum is : "<<x+y+z;
