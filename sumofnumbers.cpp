@@ -7,6 +7,9 @@ int main() {
     int y;
     cout<<"Enter : ";
     cin>>y;
-    cout<<"Sum is : "<<x+y;
+    int z;
+    cout<<"Enter : ";
+    cin>>z;
+    cout<<"Sum is : "<<x+y+z;
 
 }
