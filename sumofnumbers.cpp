@@ -7,5 +7,6 @@ int main() {
     int y;
     cout<<"Enter : ";
     cin>>y;
+    cout<<"Sum is : "<<x+y;
 
 }
