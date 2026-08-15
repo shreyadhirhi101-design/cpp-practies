@@ -13,5 +13,5 @@ int main(){
     cout<<"Enter t : " ;
     cin>>t;
 
-    
+    cout<<"Simple Interest : "<<p*r*t/100;
 }
