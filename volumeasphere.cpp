@@ -5,6 +5,6 @@ int main() {
     cout<<"Enter : ";
     cin>>r;
 
-    cout<<1.3333*3.1415*r*r*r;
+    cout<<4.0/3.0*3.1415*r*r*r;
 
 }
