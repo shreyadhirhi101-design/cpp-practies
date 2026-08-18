@@ -25,4 +25,16 @@ int main(){
     cout<<"a23 : ";
     cin>>a23;
 
+    int a31;
+    cout<<"a31 : ";
+    cin>>a31;
+
+    int a32;
+    cout<<"a32 : ";
+    cin>>a32;
+
+    int a33;
+    cout<<"a33 : ";
+    cin>>a33;
+
 }
