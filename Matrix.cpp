@@ -37,4 +37,6 @@ int main(){
     cout<<"a33 : ";
     cin>>a33;
 
+    cout<<"Determinant : ";
+    cout<<a11*(a22*a33-a32*a23)-a12*(a21*a33-a31*a23)+a13*(a21*a32-a31*a22);
 }
