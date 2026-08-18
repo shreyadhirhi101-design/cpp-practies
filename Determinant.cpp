@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int a11;
-    cout<<"a12 : ";
+    cout<<"a11 : ";
     cin>>a11;
 
     int a12;
