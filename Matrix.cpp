@@ -12,4 +12,17 @@ int main(){
     int a13;
     cout<<"a13 : ";
     cin>>a13;
+
+    int a21;
+    cout<<"a21 : ";
+    cin>>a21;
+
+    int a22;
+    cout<<"a22 : ";
+    cin>>a22;
+
+    int a23;
+    cout<<"a23 : ";
+    cin>>a23;
+
 }
