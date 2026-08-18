@@ -4,11 +4,10 @@ int main(){
     int n;
     cin>>n;
     
-    if(n%2==0){
-        cout<<"even number";
+    if(n%5==0){
+        cout<<"Divisible by 5";
     }
-    
     else{
-        cout<<"odd number";
+        cout<<"Not divisible by 5";
     }
 }
