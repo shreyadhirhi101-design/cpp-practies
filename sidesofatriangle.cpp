@@ -13,4 +13,10 @@ int main(){
    cout<<"c : ";
    cin>>c;
 
+   if((a+b)>c && (b+c)>a && (a+c)>b){
+    cout<<"They are the sides of triangle";
+   }
+   else{
+    cout<<"Not the side of triangle";
+   }
 }
