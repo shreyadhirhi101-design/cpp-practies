@@ -9,13 +9,13 @@ int main(){
         cout<<"Breadth : " ;
     cin>>b;
     }
-    float A;{
-        cout<<"Area of rectangle : "<<l*b<<endl;
-    }
-    
+
     float x = l+b;
 
-    float P;{
+    float A = l*b;{
+        cout<<"Area of rectangle : "<<l*b<<endl;
+    }
+    float P = x*2;{
         cout<<"Perimeter : "<<x*2<<endl;
     }
     if(A>P){
