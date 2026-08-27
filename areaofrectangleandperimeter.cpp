@@ -9,12 +9,12 @@ int main(){
         cout<<"Breadth : " ;
     cin>>b;
     }
-    float x;{
-        cout<<l+b;
-    }
     float A;{
         cout<<"Area of rectangle : "<<l*b<<endl;
     }
+    
+    float x = l+b;
+
     float P;{
         cout<<"Perimeter : "<<x*2<<endl;
     }
