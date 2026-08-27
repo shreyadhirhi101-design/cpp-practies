@@ -13,11 +13,11 @@ int main(){
         cout<<"Profit";
     }
 
-    if(SP<CP){
+    else if(SP<CP){
         cout<<"Loss";
     }
     
-    if(SP==CP){
+    else{
         cout<<"No Profit No Loss";
     }
 }
