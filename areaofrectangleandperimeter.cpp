@@ -10,7 +10,7 @@ int main(){
     cin>>b;
     }
     float A;{
-        cout<<"Area of rectangle : "<<l*b;
+        cout<<"Area of rectangle : "<<l*b<<endl;
     }
     float P;{
         cout<<"Perimeter : "<<(l*b)*2;
