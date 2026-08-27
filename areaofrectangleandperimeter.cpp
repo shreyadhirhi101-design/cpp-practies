@@ -9,11 +9,19 @@ int main(){
         cout<<"Breadth : " ;
     cin>>b;
     }
+    float x;{
+        cout<<l+b;
+    }
     float A;{
         cout<<"Area of rectangle : "<<l*b<<endl;
     }
     float P;{
-        cout<<"Perimeter : "<<(l+b)*2;
+        cout<<"Perimeter : "<<x*2<<endl;
     }
-
+    if(A>P){
+        cout<<"Area of Rectangle is Greater then Perimeter";
+    }
+    else{
+        cout<<"Area of Rectangle is less then perimeter";
+    }
 }
