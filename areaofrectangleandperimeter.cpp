@@ -13,6 +13,7 @@ int main(){
         cout<<"Area of rectangle : "<<l*b<<endl;
     }
     float P;{
-        cout<<"Perimeter : "<<(l*b)*2;
+        cout<<"Perimeter : "<<(l+b)*2;
     }
+
 }
