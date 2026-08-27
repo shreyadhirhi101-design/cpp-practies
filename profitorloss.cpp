@@ -10,11 +10,11 @@ int main(){
     cin>>CP;
 
     if(SP>CP){
-        cout<<"Profit";
+        cout<<"Profit is : "<<SP-CP;
     }
 
     else if(SP<CP){
-        cout<<"Loss";
+        cout<<"Loss is : "<<CP-SP;
     }
     
     else{
