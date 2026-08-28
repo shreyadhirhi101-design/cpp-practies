@@ -8,13 +8,13 @@ int main(){
     if(n>=81 and n<=100){
         cout<<"Very Good";
     }
-    if(n>=61 and n<=80){
+    else if(n>=61){
         cout<<"Good";
     }
-    if(n>=41 and n<=60){
+    else if(n>=41){
         cout<<"Average";
     }
-    if(n<=40){
+    else{
         cout<<"Fail";
     }
 }
