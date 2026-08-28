@@ -17,10 +17,10 @@ int main(){
     if(a>b && a>c){
         cout<<"a is greatest";
     }
-    if(b>a && b>c){
+    else if(b>a && b>c){
         cout<<"b is greatest";
     }
-    if(c>a && c>b){
+    else{
         cout<<"c is greatest";
     }
 }
