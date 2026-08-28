@@ -13,12 +13,12 @@ int main(){
     cin>>c;
     
     if(a>b && a>c){
-        cout<<"a is greatest";
+        cout<<a<<" is greatest";
     }
     else if(b>a && b>c){
-        cout<<"b is greatest";
+        cout<<b<<" is greatest";
     }
     else{
-        cout<<"c is greatest";
+        cout<<c<<" is greatest";
     }
 }
