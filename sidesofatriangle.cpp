@@ -14,9 +14,9 @@ int main(){
    cin>>c;
 
    if((a+b)>c && (b+c)>a && (a+c)>b){
-    cout<<"They are the sides of triangle";
+    cout<<"Valid triangle";
    }
    else{
-    cout<<"Not the side of triangle";
+    cout<<"Invalid triangle";
    }
 }
