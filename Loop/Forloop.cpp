@@ -5,6 +5,6 @@ int main(){
     cout<<"n : ";
     cin>>n;
     for(int i=1;i<=n;i++){
-        cout<<"Hello World !"<<"   ";
+        cout<<"Hello World !"<<endl;
     }
 }
