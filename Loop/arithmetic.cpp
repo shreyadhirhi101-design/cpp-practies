@@ -4,9 +4,15 @@ int main(){
     int n;
     cout<<"n : ";
     cin>>n;
-    int d;
-    cout<<"d : ";
-    cin>>d;
-    for(int i=1;i<=2*n-1;i+=d)
-    cout<<i<<" ";
+    int b;
+    cout<<"b : ";
+    cin>>b;
+    // int d;
+    // cout<<"d : ";
+    // cin>>d;
+    int a = 4;
+    for(int i=1;i<=n;i++){
+        cout<<a<<" ";
+        a = a + b;
+    }
 }

@@ -4,7 +4,7 @@ int main(){
     int n;
     cout<<"n : ";
     cin>>n;
-    for(int i=1;i<=20;i++){
+    for(int i=1;i<=20;){
         cout<<n*i<<"  ";
     }
 }
