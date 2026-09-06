@@ -9,7 +9,7 @@ int main(){
         int ld = n%10;
         r*=10;
         r+=ld;
-        r/=10;
+        n/=10;
     }
     cout<<r;
 }
