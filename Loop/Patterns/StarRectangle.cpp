@@ -8,7 +8,7 @@ int main(){
     cout<<"Number of Cols : "; //no of cols
     cin>>n;
     for(int i=1;i<=m;i++){
-        for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
             cout<<"*";
         }
         cout<<endl;
