@@ -7,10 +7,11 @@ int main(){
     bool flag = true; //true means prime 
     for(int i=2;i<=n/2;i++){
         if(n%i==0){
-            flag = false;
-            break;
+            flag = false; //false means composite
+            break; //to get out of the loop
         }
     }
-if(flag==true) cout<<"Prime";
+if(n==1) cout<<"Neigther prime nor Composition";
+else if(flag==true) cout<<"Prime";
 else cout<<"Composite";
 }
