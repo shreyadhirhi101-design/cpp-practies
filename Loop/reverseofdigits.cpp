@@ -3,12 +3,13 @@ using namespace std;
 int main(){
     int n;
     cout<<"n : ";
-    cin>>n; // mistake int ld = n%10; 
-    int sum = 0;
+    cin>>n; 
+    int r = 0;
     while(n!=0){
         int ld = n%10;
-        n/=10;
-        sum+=ld;
+        r*=10;
+        r+=ld;
+        r/=10;
     }
-    cout<<sum;
+    cout<<r;
 }
