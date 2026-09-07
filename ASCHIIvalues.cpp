@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int main() {
-   char ch;
+   int ch;
    cout<<"ch : ";
    cin>>ch;
-   cout<<(int)ch;
+   cout<<(char)ch;
 }
