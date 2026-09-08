@@ -6,5 +6,8 @@ using namespace std;
         print(n-1);
     }
     int main(){
-        print(10);
+        int n;
+        cout<<"Enter n : ";
+        cin>>n;
+        print(n);
     }
