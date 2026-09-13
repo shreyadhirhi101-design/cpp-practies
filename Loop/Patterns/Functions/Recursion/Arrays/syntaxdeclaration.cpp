@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     // 5 integers 8, 4, 5 0, 1
     int arr[5]; //declaration
+    cout<<"Enter Array Elements : "<<endl;
     // arr[0] = 8; //set
     // arr[1] = 4;
     // arr[2] = 5;
